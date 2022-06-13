@@ -1,5 +1,5 @@
 
-name: Docker Image CI
+name: GitHub Actions
 
 on:
   push:
@@ -28,5 +28,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.USERNAME }}/devops-tp2:latest        
+          tags: ${{ secrets.USERNAME }}/tp1:latest        
         
