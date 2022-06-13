@@ -41,10 +41,10 @@ st.text("")
 col11, col22, col33, col44,coll5,coll6 = st.columns(6)
 
 col11.image("https://cdn-icons.flaticon.com/png/512/3920/premium/3920688.png?token=exp=1655151587~hmac=ccabc42f076f7dc9b146dc41bb0a99f7")
-col22.metric("",sunrise,delta = None,delta_color="off")
+col22.metric("","Sunrise",delta_color="off")
 
 coll5.image("https://cdn-icons.flaticon.com/png/512/3920/premium/3920799.png?token=exp=1655151580~hmac=2eb59913a0a3a1838646192f05d172bf")
-coll6.metric("",sunset,delta = None,delta_color="off")
+coll6.metric("","-Sunset",delta_color="off")
 
 st.text("")
 with st.expander("See plain json source"):
