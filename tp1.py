@@ -2,6 +2,7 @@
 import json
 import requests
 import os
+import streamlit as st
 
 
 
@@ -20,4 +21,4 @@ data = json.loads(response.text)
 
 
 
-print(data)
+st.write(data)
