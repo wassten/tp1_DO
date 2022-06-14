@@ -42,7 +42,7 @@ col11, col22, col33, col44,coll5 = st.columns(5)
 
 col22.metric("",sunrise,"Sunrise",delta_color="off")
 col33.image("https://c.tadst.com/gfx/1200x630/sun-calculator2.png?1")
-col4.metric("",sunset,"-Sunset",delta_color="off")
+col44.metric("",sunset,"-Sunset",delta_color="off")
 
 st.text("")
 with st.expander("See plain json source"):
