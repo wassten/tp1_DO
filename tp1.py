@@ -38,7 +38,7 @@ col4.metric("Wind", str(data['wind']['speed']) + ' m/s', str(data['wind']['deg']
 sunset = datetime.fromtimestamp(data['sys']['sunset']).strftime('%Hh %M')
 sunrise = datetime.fromtimestamp(data['sys']['sunrise']).strftime('%Hh %M')
 st.text("")
-col11, col22, col33, col44,coll5 = st.columns(6)
+col11, col22, col33, col44,coll5 = st.columns(5)
 
 col11.metric("",sunrise,"Sunrise",delta_color="off")
 col33.image("https://c.tadst.com/gfx/1200x630/sun-calculator2.png?1")
